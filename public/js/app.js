@@ -30,8 +30,8 @@ let randomText = ()=>{
     render() {
       const boxStyle = {height: '20em'};
       return (
-        <div className="color-box" style={boxStyle}>
-          <p>hola</p>
+        <div className="color-box" style={randomColor}>
+          <p style={randomText}></p>
         </div>
       );
     }
